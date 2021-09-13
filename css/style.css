@@ -4,7 +4,7 @@ body{
 
 }
 .container{
-    width: 650px;
+    width: 1024px;
     margin: 0 auto;
     
 }
@@ -23,7 +23,7 @@ body{
     background: rgba(196, 196, 196, 0.3);
     border-radius: 10px;
     width: 320px;
-    height: 850px;
+    height: 830px;
 }
 .info{
     text-align: center;
@@ -112,8 +112,25 @@ a{
     justify-content: center;
 }
 .section2{
-    width: 321px;
+    width: 704px;
     height: 830px;
     background: #FFFFFF;
     border-radius: 10px;
+    margin-left: 5px;
+}
+.aboutme{
+    width: 154px;
+    height: 24px;
+    color: #FAFAFA;
+    margin-left: 25px;
+    text-align: center;
+    background: #545454;
+    border-radius: 5px;
+    
+}
+.about p{
+    margin-left: 7px;
+    font-size: 15px;
+    line-height: px;
+    color: rgba(0, 0, 0, 0.8);
 }
