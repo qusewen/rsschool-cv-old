@@ -118,7 +118,7 @@ a{
     border-radius: 10px;
     margin-left: 5px;
 }
-.aboutme{
+.aboutme, .ed, .skills{
     width: 154px;
     height: 24px;
     color: #FAFAFA;
@@ -128,9 +128,57 @@ a{
     border-radius: 5px;
     
 }
-.about p{
+.ed, .skills{
+    margin-left: 32px;    
+}
+.about, .education p{
     margin-left: 7px;
     font-size: 15px;
     line-height: px;
     color: rgba(0, 0, 0, 0.8);
+}
+
+.University{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #343434;
+}
+.education span{
+    font-size: 13px;
+    line-height: 18px;
+    color: #73808D;
+}
+.facult{
+    font-size: 12px;
+    line-height: 18px;
+    color: #343434;
+}
+.skil img{
+    width: 70px;
+    margin-right: 15px;
+
+}
+.skil li{
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #545454;
+    background: white;
+    
+}
+.skil{
+    padding: 0;
+}
+.git, .rs{
+    width: 50px;
+    
+    padding-right: 190px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
 }
