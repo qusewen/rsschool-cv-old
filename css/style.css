@@ -1,0 +1,366 @@
+body{
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    background-repeat: no-repeat; 
+
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 110px;
+
+}
+.section1{
+    font-family: Montserrat;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+    width: 320px;
+    height: 830px;
+}
+.info{
+    text-align: center;
+}
+h1{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.me{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #CECACA;
+}
+
+ul{
+    padding: 0px;
+    padding-left: 32px;
+    
+
+}
+.cont{
+    width: 24px;
+    margin-top: 7px;
+    margin-left: 14.73px;
+    padding-right: 29px;
+}
+li{
+    list-style-type: none;
+    width: 260px;
+    height: 38px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-top: 5px;
+    font-family: Calibri;
+    font-size: 15px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    }
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.know{
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.knowledge{
+    font-size: 14px;
+    line-height: 18px;
+    color: #FAFAFA;
+    
+}
+
+.knowl{
+    justify-content: center;
+}
+.lang{
+    text-align: center;
+
+}
+.lan{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.language{
+    font-size: 14px;
+    line-height: 18px;
+    color: #FAFAFA;
+    width: 260px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2{
+    width: 704px;
+    height: 830px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.aboutme, .ed, .skills{
+    width: 640px;
+    height: 30px;
+    color: #FAFAFA;
+    margin-left: 25px;
+    text-align: center;
+    background: #545454;
+    border-radius: 5px;
+    
+}
+.ed, .skills{
+    margin-left: 32px;    
+}
+.about, .education p{
+    margin-left: 7px;
+    font-size: 15px;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.abm{
+    font-size: 18px;
+    font-family: Calibri;
+}
+.University{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    margin-left: 7px;
+    color: #343434;
+}
+.education span{
+    font-size: 18px;
+    line-height: 18px;
+    color: #73808D;
+}
+.education{
+    /* margin-top: 60px; */
+}
+.facult{
+    font-size: 12px;
+    line-height: 18px;
+    color: #343434;
+}
+.skills{
+    /* margin-top: 80px; */
+}
+.skil img{
+    width: 70px;
+    margin-right: 15px;
+
+}
+.skil li{
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #545454;
+    background: white;
+    
+}
+.skil{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.git, .rs{
+    width: 50px;
+    margin-left: 8px;
+    padding-right: 7px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.footer span{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+
+    color: #545454;
+    
+}
+summary{
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.soc{
+    justify-content: center;
+}
+.js {
+
+        
+    width: 436px;
+    margin: 303px auto;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+/*Responsiv*/ 
+/*992px - 1200px*/ 
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+    .section2{
+        width: 640px;
+    }
+    .aboutme, .ed, .skills{
+        width: 576px;
+
+    }
+}
+
+/*768px - 992px*/ 
+@media screen and (max-width: 990px) {
+    .container{
+        margin: 0;
+        width: 720px;
+    }
+    .section1{
+        width: 284px;
+    }
+    .section2{
+        width: 85%;
+    }
+    .aboutme, .ed, .skills{
+        width: 90%;
+    }
+    .skil img{
+        width: 15px;
+        margin-right: 15px
+    }
+    .skil{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skil li{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .js{
+        width: 60%;
+        margin: 242px auto;
+    }
+    .footer{
+        width: 901px;
+        margin-top: 3px;
+    }
+    li{
+        width: 90%;
+    }
+    .language{
+     
+    }
+}
+/*576px - 768px*/ 
+@media screen and (max-width: 768px) {
+    .container{
+        width: 540px;
+    }
+    .section1{
+        width: 563px;
+        margin: 0 auto;
+        height: auto;
+    }
+    .section2{
+        width: 563px;
+        margin: 0 auto;
+        height: auto;
+    }
+    .footer{
+        width: 560px;
+    }
+    .wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    li{
+        width: 95%;
+    }
+    .lang li{
+        justify-content: center;
+    }
+    .skil{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .js{
+        margin: 77px auto;
+    }
+}
+
+
+/*0px - 576px*/ 
+@media screen and (max-width: 576px) {
+        .container {
+            width: 90%;
+        }
+        .section1{
+            width: 306px;
+        }
+        .section2{
+            width: 306px;
+        }
+        .aboutme, .ed, .skills{
+            width: 245px;
+        }
+        .abm{
+            width: 296px;
+            text-align: center;
+        }
+        .footer{
+            width: 306px;
+        }
+        .University{
+            height: 320px;
+            text-align: center;
+            font-size: 15px;
+        }
+        .facult{
+            text-align: center;
+            font-size: 15px;
+            width: 291px;
+        }
+        .js{
+            width: 277px;
+            margin-top: 220px;
+            margin-left: 10px;
+        }
+        .skil{
+            display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        }
+    }
