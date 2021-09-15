@@ -120,8 +120,8 @@ a{
     margin-left: 5px;
 }
 .aboutme, .ed, .skills{
-    width: 154px;
-    height: 24px;
+    width: 640px;
+    height: 30px;
     color: #FAFAFA;
     margin-left: 25px;
     text-align: center;
@@ -135,7 +135,7 @@ a{
 .about, .education p{
     margin-left: 7px;
     font-size: 15px;
-    line-height: px;
+
     color: rgba(0, 0, 0, 0.8);
 }
 .abm{
@@ -180,17 +180,42 @@ a{
 }
 .skil{
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 .git, .rs{
     width: 50px;
     margin-left: 8px;
-    padding-right: 190px;
+    padding-right: 7px;
 }
 .footer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    margin-top: 15px;
 }
-footer{
+.footer span{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
 
-    margin-top: 140px;
+    color: #545454;
+    
+}
+summary{
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.soc{
+    justify-content: center;
+}
+
+summary:hover {
+    cursor: pointer;
 }
