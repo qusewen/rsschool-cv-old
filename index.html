@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/rsschool-cv/css/style.css">
 </head>
@@ -34,14 +38,14 @@
                     </div>
                     <div class="lang">
                         <h2 class="lan">Languages</h2>
-                        <p class="language">English A1/A2</p>
+                        <ul><li><p class="language">English A1/A2</p></l></ul>
                     </div>
                     <details>
                         <summary class="social">Social</summary>
                        <ul>
-                           <li class="soc"><a href="https://www.instagram.com/quse_pb/">Instagram</a></li>
-                           <li class="soc"><a href="https://vk.com/by_quse">VK</a></li>
-                           <li class="soc"><a href="https://t.me/qusepb">Telegram</a></li>
+                           <li class="soc"><a href="https://www.instagram.com/quse_pb/" target="_blank">Instagram</a></li>
+                           <li class="soc"><a href="https://vk.com/by_quse" target="_blank">VK</a></li>
+                           <li class="soc"><a href="https://t.me/qusepb" target="_blank">Telegram</a></li>
                         </ul>
                     </details>
                 </div>
@@ -52,7 +56,7 @@
                     </div>
                     <div class="education">
                         <h2 class="ed">Education</h2>
-                        <p class="University">Belarusian-Russian University <span>2017 - 2022</span></p>
+                        <a href="http://bru.by/" class="University" target="_blank">Belarusian-Russian University <span>2017 - 2022</span></a>
                         <p class="facult">Faculty of Mechanical Engineering.
                         Automation of technological processes of Production.</p>
                     </div>
@@ -68,14 +72,21 @@
                         
                      
                     </div>
-
+                    <pre><code class="js">function getMiddle(s){
+                        if (s.length % 2 == 0){
+                        return( s.charAt(s.length/2-1 ) + s.charAt(s.length/2 + 0) )
+                        }
+                       else{
+                       return( s.charAt(s.length/2 ))
+                       } }
+                        </code></pre>
                 </div>
             </div>
             <footer>
                 <div class="footer">
-                    <a  href="https://github.com/"><img class="git" src="/rsschool-cv/img/git.svg" alt="git"></a>
+                    <a  href="https://github.com/ " target="_blank"><img class="git" src="/rsschool-cv/img/git.svg" alt="git"></a>
                     <span>Mogilev 2021</span>
-                    <a  href="https://rs.school/"><img class="rs" src="/rsschool-cv/img/logo-rsschool3.png" alt="rs"></a>
+                    <a  href="https://rs.school/" target="_blank"><img class="rs" src="/rsschool-cv/img/logo-rsschool3.png" alt="rs"></a>
                     
                 </div>
             </footer>
