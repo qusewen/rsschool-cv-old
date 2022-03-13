@@ -151,17 +151,13 @@ a{
     line-height: 18px;
     color: #73808D;
 }
-.education{
-    /* margin-top: 60px; */
-}
+
 .facult{
     font-size: 12px;
     line-height: 18px;
     color: #343434;
 }
-.skills{
-    /* margin-top: 80px; */
-}
+
 .skil img{
     width: 70px;
     margin-right: 15px;
@@ -279,9 +275,7 @@ summary:hover {
     li{
         width: 90%;
     }
-    .language{
-     
-    }
+
 }
 /*576px - 768px*/ 
 @media screen and (max-width: 768px) {
