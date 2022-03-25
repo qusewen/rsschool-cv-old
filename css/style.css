@@ -341,6 +341,7 @@ summary:hover {
             text-align: center;
         }
         .footer{
+            margin: 0 auto;
             width: 306px;
         }
         .University{
