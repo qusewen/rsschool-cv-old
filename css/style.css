@@ -239,8 +239,8 @@ summary:hover {
 /*768px - 992px*/ 
 @media screen and (max-width: 990px) {
     .container{
-        margin: 0;
-        width: 720px;
+        margin: 0 auto;
+        max-width: 720px;
     }
     .section1{
         width: 284px;
@@ -280,7 +280,8 @@ summary:hover {
 /*576px - 768px*/ 
 @media screen and (max-width: 768px) {
     .container{
-        width: 540px;
+        max-width: 540px;
+        margin: 0 auto;
     }
     .section1{
         width: 563px;
@@ -319,7 +320,7 @@ summary:hover {
 /*0px - 576px*/ 
 @media screen and (max-width: 576px) {
         .container {
-            width: 90%;
+            max-width: 90%;
         }
         .section1{
             width: 306px;
