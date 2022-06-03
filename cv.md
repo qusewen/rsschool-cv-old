@@ -21,3 +21,6 @@ My name is **Vitalik**. I'm from a Mogilev, where i study and live. I work in an
 2017-2022 **Belarusian-Russian University**.
 Faculty of Mechanical Engineering.
 Automation of technological processes of Production.
+
+2022 - 2022 **Melarossa**
+Frontend developer
